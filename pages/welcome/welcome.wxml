@@ -1,0 +1,76 @@
+<view class='main-body'>
+  <view class='nav-public'><text>公告：主营精品粮油团购业务,可依据需求订制规格包装.</text></view>
+  <swiper class="nav" indicator-dots="true" autoplay='true' interval='2000'>
+    <swiper-item>
+      <image src='/images/banner-img/20180522163951_567.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/banner-img/20180522164552_449.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/banner-img/20180522164559_270.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/banner-img/20180522180632_979.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <view class='food-nav'>
+    <view>
+      <image src='/images/foodstuff/1525746265768719_r1_c1.png'></image>
+      <text>原稻</text>
+    </view>
+    <view>
+      <image src='/images/foodstuff/three.jpg'></image>
+      <text>大米</text>
+    </view>
+    <view>
+      <image src='/images/foodstuff/one.jpg'></image>
+      <text>杂粮</text>
+    </view>
+    <view>
+      <image src='/images/foodstuff/5ad7e595Nc9acd03d.jpg'></image>
+      <text>礼品</text>
+    </view>
+  </view>
+  <view class='topic'>
+    <view>
+      <text>中秋佳节粮油礼盒团购特惠活动介绍</text>
+      <text>专属定制礼盒，贵宾服务，为您量身定制</text>
+    </view>
+  </view>
+  <view class='address'>
+    <text class='company'>湖北华苑粮油聚龙名都经营部</text>
+    <text>联系方式:18008682976(何女士)</text>
+    <text>直销点:沿江大道湖北放心粮油聚龙名都店（聚龙名都小区旁）</text>
+    <!-- <text>总部地址:湖北省鄂州市华容区蒲团乡郭垱村（省级农产品加工园区）</text>
+    <text>总部联系电话:0711-3612450 </text> -->
+  </view>
+  <view class='food-info'>
+    <view class='food-company'>
+      <text>鄂州华苑商品</text>
+    </view>
+  </view>
+
+  <block wx:for="{{posts_key}}" wx:for-item="item">
+    <view class='list'>
+      <view class='list-one' catchtap='listPostTap' data-postid="{{item.postId}}">
+        <text>{{item.title}}</text>
+        <view class='morefood'><text>更多 ></text></view>
+      </view>
+      <view class='info'>
+        <view bindtap="onPostTap" data-text='{{item.txtone}}' data-img='{{item.imgone}}'>
+          <image src='{{item.imgone}}'></image>
+          <text>{{item.textone}}</text>
+        </view>
+        <view bindtap="onPostTap" data-text='{{item.txttwo}}' data-img='{{item.imgtwo}}'>
+          <image src='{{item.imgtwo}}'></image>
+          <text>{{item.texttwo}}</text>
+        </view>
+        <view bindtap="onPostTap" data-text='{{item.txtthree}}' data-img='{{item.imgthree}}'>
+          <image src='{{item.imgthree}}'></image>
+          <text>{{item.textthree}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

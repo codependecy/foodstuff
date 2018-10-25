@@ -1,0 +1,17 @@
+<view>
+  <image class='head-image' src='/images/banner-img/20180509152849_127.png'></image>
+  <view class='list'>
+    <view class='list-one'><text>品质生活臻品系列</text></view>
+    <view class='info'>
+      <block wx:for="{{posts_key}}" wx:for-item="item">
+        <view class='info-box' bindtap='onPostTap' data-text='{{item.txt}}' data-img='{{item.img}}'>
+          <image src='{{item.img}}'></image>
+          <view>
+            <text class='title'>{{item.title}}</text>
+            <text class='info-info'>{{item.info}}</text>
+          </view>
+        </view>
+      </block>
+   </view>
+  </view>
+</view>

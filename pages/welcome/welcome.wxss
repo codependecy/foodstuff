@@ -1,0 +1,149 @@
+.main-body{
+  /* position: relative; */
+}
+swiper{
+  width:100%;
+  height: 228px;
+}
+.nav-public{
+  height: 72rpx;
+  line-height: 72rpx;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  background: lightcoral;
+  z-index: 2;
+  width: 100%;
+  color: #fff;
+  font-size: 24rpx;
+}
+.nav-public text{
+  display: block;
+  width: 100%;
+  height: 72rpx;
+  background: url('https://raw.githubusercontent.com/codependecy/blog/master/nav-bg.jpg') no-repeat 30rpx 20rpx;
+   background-size: 36rpx 32rpx;
+   text-indent: 80rpx;
+}
+image{
+  width: 100%;
+  height: 228px;
+}
+.food-nav{
+  display: flex;
+  height: 175rpx;
+  flex-direction: row;
+}
+.food-nav>view{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
+}
+.food-nav image{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx auto;
+  border-radius: 15rpx;
+}
+.food-nav text{
+  font-size: 32rpx;
+}
+.topic{
+  margin: 30rpx 0;
+  height: 120rpx;
+  background: url('https://raw.githubusercontent.com/codependecy/blog/master/background.jpg') no-repeat 30rpx 30rpx;
+  background-size: 103rpx 50rpx;
+}
+.topic view{
+  display: flex;
+  flex-direction: column;
+  margin-left: 150rpx;
+  font-size: 28rpx;
+}
+.topic view text{
+  display: block;
+  height: 20px;
+  margin: 10rpx;
+  text-indent: 55rpx;
+  background: url('https://raw.githubusercontent.com/codependecy/blog/master/bg.png') no-repeat 0 3rpx;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150rpx;
+}
+.address text{
+  font-size: 32rpx;
+  color: #9D9D9D;
+  margin: 15rpx 0;
+}
+.address .company{
+  color: #565656;
+  font-size: 40rpx;
+}
+.food-company{
+  border-top: 4rpx solid #F0EFF4;
+  font-size: 32rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #F0EFF4;
+}
+.food-company text{
+  display: block;
+  text-align: center;
+  /* margin-left: 150rpx; */
+}
+.food-info{
+  font-size: 32rpx;
+}
+.morefood{
+  font-size: 32rpx;
+  line-height: 100rpx;
+  width: 200rpx;
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+}
+.info > view{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 32rpx;
+}
+.info view:nth-child(2){
+  margin: 0 14rpx;
+}
+.info image{
+  width: 240rpx;
+  height: 282.5rpx;
+}
+.info text{
+  padding: 5rpx 0;
+  background: #00863e;
+  color: #fff;
+  overflow: hidden;
+  font-size: 24rpx;
+  line-height: 30px;
+  height: 30px;
+  text-overflow: clip;
+}
+.money{
+  color: #D26175;
+}
+.list{
+  position: relative;
+}
+.list-one > text{
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 5px;
+  margin-bottom: 30rpx;
+  font-size: 32rpx;
+  color: #00863e;
+  background: url("http://www.ehyly.com/m/template/images/bian.png") no-repeat 0 56px;
+}

@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/food-list-one/food-list-one",
+    "pages/food-list-two/food-list-two",
+    "pages/food-list-three/food-list-three",
+    "pages/food-list-four/food-list-four",
+    "pages/food-list-five/food-list-five",
+    "pages/food-info/food-info",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

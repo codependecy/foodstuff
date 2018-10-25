@@ -1,0 +1,52 @@
+image{
+  width: 100%;
+  height: 81px;
+}
+.list{
+  position: relative;
+}
+.list-one > text{
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 5px;
+  margin-bottom: 30rpx;
+  font-size: 32rpx;
+  color: #00863e;
+  background: url("http://www.ehyly.com/m/template/images/bian.png") no-repeat 0 56px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+.info-box{
+  display: block;
+  height: 282rpx;
+}
+.info-box image{
+  float: left;
+  margin-right: 20rpx;
+}
+.info-box{
+  margin-bottom: 30rpx;
+}
+.info image{
+  width: 240rpx;
+  height: 282rpx;
+}
+.info text{
+  display: block;
+  padding: 5rpx 0;
+  /* background: #00863e; */
+  color: #00863e;
+  overflow: hidden;
+  font-size: 24rpx;
+  line-height: 30px;
+}
+.info .title{
+  font-size: 30rpx;
+}
+.info .info-info{
+  line-height: 46rpx;
+}

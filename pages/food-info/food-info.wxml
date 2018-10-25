@@ -1,0 +1,22 @@
+<!--先静后动，先样式再数据-->
+<view class="container">
+  <image class='head-image' src='/images/foodstuff/20180523101129_581.jpg'></image>
+  <view class="author-date">
+    <image class="avatar" src="/images/Avatar/15223063261351804.jpg"></image>
+    <text class="author">聚龙名都经营部</text>
+    <text class="const-text">上架于</text>
+    <text class="date">两天前</text>
+  </view>
+  <text class="title">湖北华苑粮油{{txt}}简介</text>
+  <view class="tool">
+    <view class="circle-img">
+      <image wx:if="{{collected}}" catchtap="onColletionTap"  src="/images/icon/collection.png"></image>
+      <image wx:else catchtap="onColletionTap" src="/images/icon/collection-anti.png"></image>
+      <image catchtap="onShareTap"  class="share-img" src="/images/icon/share.png"></image>
+    </view>
+    <view class="horizon"></view>
+  </view>
+  <text class="detail">“华苑”牌{{txt}}原料采用精选国家农业部门认定优质稻种，高标准全生态种植，低温绿色储藏，高科技无添加研磨。米质晶莹剔透，米饭香软可口，回味悠长，营养丰富。</text>
+  <image class='info-img' src='{{img}}'></image>
+  <image class='skill' src='/images/foodstuff/594e8673Nbce42dc8.jpg'></image>
+</view>
